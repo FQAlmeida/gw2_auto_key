@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gw2-auto-key"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "gw2_auto_key"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pypiwin32 = "^223"
+six = "^1.16.0"
+pyautogui = "^0.9.53"
+pydirectinput = "^1.0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
